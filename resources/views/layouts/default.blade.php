@@ -4,8 +4,8 @@
 <head>
 
 
- {{-- style --}}
-@include('includes.styleHome')
+  {{-- style --}}
+  @include('includes.styleHome')
 
   <!-- =======================================================
   * Template Name: BizLand - v3.3.0
@@ -17,25 +17,25 @@
 
 <body>
 
-{{-- top and head --}}
-@include('includes.headHome')
-{{-- hero --}}
-{{-- bagian hero ini yang nanti buat maps --}}
-<section id="content" class="d-flex align-items-center">
+  {{-- top and head --}}
+  @include('includes.headHome')
+  {{-- hero --}}
+  {{-- bagian hero ini yang nanti buat maps --}}
+  <input style="text-align: center; margin-left: 500pt" type="text">
+  <section id="content" class="d-flex align-items-center">
     @yield('content')
-</section>
+  </section>
 
 
   <!-- End #main -->
 
-{{-- footer --}}
-@include('includes.footerHome')
+  {{-- footer --}}
+  @include('includes.footerHome')
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-{{-- script --}}
-@include('includes.scriptHome')
+  {{-- script --}}
+  @include('includes.scriptHome')
 
 </body>
 
