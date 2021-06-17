@@ -8,12 +8,17 @@
     </div>
   </div> --}}
   <!-- End Hero -->
+
+
+
   @extends('layouts.default')
   @section('content')
+
   <div class="row">
     <div class="col-sm-12">
     </div>
   </div>
+
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1692764041536!2d106.82215111435201!3d-6.372134764104784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec04b217fe09%3A0x2f054fe3a0295245!2sPoliteknik%20Negeri%20Jakarta!5e0!3m2!1sid!2sid!4v1623887802355!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   @endsection
 
@@ -22,7 +27,7 @@ src="http://maps.google.com/maps/api/js?sensor=true&amp;key=ABQIAAAA8tt4eKTuBZMV
 pt>
 
 
-<script type="text/javascript">
+<scrip type="text/javascript">
   function initialize() {
 if (GBrowserIsCompatible()) {
 var map = new GMap2(document.getElementById("map_canvas"));
@@ -43,6 +48,6 @@ map.addOverlay(new GMarker(point));
 
 var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 }
-</script>
+</scrip>
 
 <div id="map_canvas" style="width:600px; height:600px"></div> --}}
