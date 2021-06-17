@@ -20,6 +20,9 @@
           <li><a class="nav-link scrollto" href="#about">Gabung Mitra</a></li>
           <li><a class="nav-link scrollto" href="#services">Tentang Kami</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">FAQ</a></li>
+          {{-- <li><a class="nav-link scrollto "  href="#portfolio">login</a></li> --}}
+          <button type="button" class="btn btn-info">Login</button>
+          <li>  </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
