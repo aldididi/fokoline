@@ -21,8 +21,8 @@
 @include('includes.headHome')
 {{-- hero --}}
 {{-- bagian hero ini yang nanti buat maps --}}
-<section id="hero" class="d-flex align-items-center">
-    @yield('hero')
+<section id="content" class="d-flex align-items-center">
+    @yield('content')
 </section>
 
 
