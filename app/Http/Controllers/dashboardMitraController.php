@@ -8,6 +8,6 @@ class dashboardMitraController extends Controller
 {
     public function dashboardMitra()
     {
-        return view('layouts.dashboardMitra');
+        return view('pages.dashboard');
     }
 }
